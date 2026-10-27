@@ -12,13 +12,22 @@ int main(){
     float perimetro=0;
     float area=0;
     printf("inserisci il primo valore:");
-    scanf("%f",lato1);
+    scanf("%f",&lato1);
     printf("inserisci il secondo valore:");
-    scanf("%f",lato2);
+    scanf("%f",&lato2);
     
     if(lato1==lato2)
     {
         perimetro=4*lato1;
+        printf("il perimetro del quadrato è: %.2f\n",perimetro);
         
     }
+    else
+    {
+        area=lato1 * lato2;
+        printf("l'area del rettangolo è: %.2f\n",area);
+
+    }
+    return 0;
+
 }
