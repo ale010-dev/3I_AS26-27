@@ -9,11 +9,17 @@ int main(){
     float consumo_kwh=0;
     int residenza=0;
     float costo=0;
+    float quota_fissa=0;
+    char junk;
+
 
     printf("Inserisci lo status di residenza(1:residente-2:non residente):");
     scanf("%d",&residenza);
 
-    if(residenza > 2){
+
+    if(residenza != 1 && residenza != 2) {
+        printf("Errore:tipologia\n");
+
         residenza=2;
     }
     
