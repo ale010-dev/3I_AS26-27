@@ -14,7 +14,7 @@ int main(){
     junk=getchar();
 
     printf("Inserisci la percentuale di frequenza (0 - 100):");
-    scanf("%f",&presenza_lezioni);
+    scanf("%d",&presenza_lezioni);
     junk=getchar();
 
     if(voto<18){

@@ -6,9 +6,16 @@
 */
 #include<stdio.h>
 int main(){
-    float consumo_energetico=0;
-    int residente=0;
-    int non_residente=0;
+    float consumo_kwh=0;
+    int residenza=0;
+    float costo=0;
 
-    printf
-}
+    printf("Inserisci lo status di residenza(1:residente-2:non residente):");
+    scanf("%d",&residenza);
+
+    if(residenza > 2){
+        residenza=2;
+    }
+    
+
+}   
