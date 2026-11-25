@@ -1,0 +1,30 @@
+/*
+     Author:Alessandro Gruppioni
+    Date:25/11/2026
+    Abstract: realizza un programma in C che richide in 
+    input un valore intero,visualizza tutti i valori da 1 al
+    valore inserito.
+*/
+#include<stdio.h>
+int main(){
+    int a;
+    int cnt;
+    char junk;
+
+    a=0;
+
+    printf("Inserisci il valore a: ");
+    scanf("%d", &a);
+    junk=getchar();
+    cnt= 1;
+
+    while(cnt <= a)
+    {
+        printf("%d\n",cnt);
+        cnt= cnt + 1;
+        
+    }
+
+return 0;
+
+}
